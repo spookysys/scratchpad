@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // use Bash
+    "terminal.integrated.shell.windows": "\\WINDOWS\\sysnative\\bash.exe",
+    "terminal.external.windowsExec": "\\WINDOWS\\sysnative\\bash.exe",
+
+    // Python
+    "python.linting.enabled": true,
+    "python.linting.pep8Enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pylintArgs": ["--disable C0111", "--disable C0103", "--disable C0301", "--disable C0413", "--disable R0903"],
+    "python.formatting.provider": "autopep8",
+    "python.formatting.formatOnSave": true,
+    "python.unitTest.pyTestEnabled": true,
+
+    // Unify editor settings
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+
+    // C++ (more in c_cpp_properties.json)
+    "clang-format.executable": "clang-format",
+    "clang-format.formatOnSave": true,
+
+    // Exclusions
+    "files.exclude": {
+        "**/.git": true
+    },        
+}
